@@ -12,11 +12,11 @@
     --normal-font: 500;
     --light-font: 300;
     /* Font sizes */
-    --large-font: 4rem;
-    --medium-font: 3.5rem;
-    --small-font: 1.7rem;
-    --tiny-font: 1rem;
-    --verytiny-font: .8rem;
+    --large-font: 5rem;
+    --medium-font: 4.5rem;
+    --small-font: 3rem;
+    --tiny-font: 2rem;
+    --verytiny-font: 1rem;
 
     --header-height: 100vh;
 }
@@ -296,18 +296,18 @@ footer .contact, footer .social{
 @media (min-width: 470px) and (max-width: 992px) {
     :root{
          /* Font sizes */
-        --large-font: 3.5rem;
-        --medium-font: 3rem;
-        --small-font: 1.4rem;
-        --tiny-font: .9rem;
-        --verytiny-font: .7rem;
+        --large-font: 4.5rem;
+        --medium-font: 4rem;
+        --small-font: 3rem;
+        --tiny-font: 1.5rem;
+        --verytiny-font: .8rem;
     }
     #home-container{
         margin-top: 100px;
     }
     .profile-pic{
-        width: 380px;
-        height: 660px;
+        width: 420px;
+        height: 680px;
         border: 1px solid none;
     }
     .home-profile-pic{
@@ -348,11 +348,11 @@ footer .contact, footer .social{
 @media only screen and (max-width: 469px) {
     :root{
         /* Font sizes */
-       --large-font: 3rem;
-       --medium-font: 2.7rem;
-       --small-font: 1.2rem;
-       --tiny-font: .8rem;
-       --verytiny-font: .6rem;
+       --large-font: 4rem;
+       --medium-font: 3.5rem;
+       --small-font: 2rem;
+       --tiny-font: 1rem;
+       --verytiny-font: .7rem;
    }
     #home-container{
         margin-top: 100px;
@@ -361,8 +361,8 @@ footer .contact, footer .social{
         margin: 10px auto;
     }
     .profile-pic{
-        width: 310px;
-        height: 540px;
+        width: 370px;
+        height: 590px;
     }
     .graphic-tool{
         width: 70px;
