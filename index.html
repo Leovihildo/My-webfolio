@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Joshua's Webfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- The Styled sheet -->
+    <link rel="stylesheet" href="css/webfolio.css">
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/d2d33bd796.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper-js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+  <!-- NAV HEADER -->
+  <header id="header">
+    <nav id="nav_scroll" class="navbar navbar-expand-lg navbar-light sticky">
+        <div class="container">
+        <!-- <a class="brand" href="index.html">
+                <img src="" alt="" width="60" height="60" class="d-inline-block align-text-top">
+            </a> -->
+            <button class="navbar-toggler" type="button" data-bs-target="#offcanvasRight" data-bs-toggle="offcanvas" aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon clear"></span>
+            </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+        <div class="offcanvas-body small">
+            <ul class="navbar-nav justify-content-end  flex-grow-1 pe-3">
+                <li class="nav-item menubar"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item menubar"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Change Theme</a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item theme1" href="javascript: void(0)">Deep Blue</a></li>
+                      <li><a class="dropdown-item theme2" href="javascript: void(0)">Tomatoes</a></li>
+                      <li><a class="dropdown-item theme3" href="javascript: void(0)">Green Earth</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item menubar"><a class="nav-link" href="#contact">Hire Me</a></li>
+                <li class="nav-item" id="dark_theme"><a class="nav-link" href="javascript: void(0)"><i class="fa fa-moon-o" aria-hidden="true"></i><i class="fa fa-sun-o" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END OF NAV HEADER -->
+
+  <!-- HOME MENU -->
+  <div id="home"></div>
+  <section class="home-section section">
+    <div id="home-container" class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 home-msg">
+          <h4>Hi,</h4>
+          <h3>I'm <span>Joshua</span> Johnson.</h3>
+          <p>Welcome to my webfolio. I'm a graphic designer and a frontend web developer.</p>
+          <a href="./Joshua's resume.pdf" download><button class="btn">Download CV</button></a>
+        </div>
+        <!-- Profile Image -->
+        <div class="col-lg-6 col-md-12 home-profile-pic">
+          <img class="profile-pic" src="./1.png" alt="Profile-Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END OF HOME SECTION -->
+
+  <!-- PORTFOLIO SECTION -->
+  <div id="portfolio" class="go-to"></div>
+  <div class="portfolio-section section">
+    <div id="portfolio-container" class="container">
+       <!-- GRAPHIC PORTFOLIO -->
+        <div class="graphic">
+          <h5>As a graphic designer</h5>
+          <hr>
+          <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 col-8">
+            <div class="swiper-wrapper main-swiper">
+              <div class="swiper-slide">
+                <img src="images/Sdc.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Dark_star_YtT.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Webdev_YtT.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Spring_mockup.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Riverdale_ad.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Powtech_ad.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/NoraErn's Stitches.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Lena's_cakes.png" />
+              </div>
+              <!-- <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div> -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper sub-swiper">
+              <div class="swiper-slide">
+                <img src="images/Sdc.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Dark_star_YtT.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Webdev_YtT.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Spring_mockup.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Riverdale_ad.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Powtech_ad.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/NoraErn's Stitches.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Lena's_cakes.png" />
+              </div>
+              <!-- <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+              </div> -->
+            </div>
+          </div>
+        </div>
+      <!-- End of Graphic Row -->
+
+    <!-- WEB DESIGN PORTFOLIO -->
+    <div class="row webdev-row section">
+      <div class="graphic">
+        <h5>As a Web Developer</h5>
+        <hr>
+        <div style="--swiper-navigation-color: #fff;" class="swiper mySwiper3">
+          <div class="swiper-wrapper">
+            <!-- Web Dev 1 -->
+            <div class="swiper-slide">
+              <div class="row">
+              <img src="images/hp_large.jpg" alt="the-holiday-planner-webapp" class="col-lg-6">
+              <div class="col-lg-6 card-text">
+                <h6>Holiday Planner Web App</h6>
+                <p>Helps you plan your holidays seamlessly.</p>
+                <a href="https://leovihildo.github.io/Holiday-planner" target="_blank"><button class="btn">View demo<i class="fa fa-external-link icon" aria-hidden="true"></i></button></a>
+              </div>
+              </div>
+            </div>
+            <!-- End of Web dev 1 -->
+
+              <!-- Web Dev 2 -->
+              <div class="swiper-slide">
+                <div class="row">
+                <img src="images/myportfolio.png" alt="my-first-portfolio-website" class="col-lg-6">
+                <div class="col-lg-6 card-text">
+                  <h6>My first portfolio website</h6>
+                  <p>Built with HTML, CSS, Javacript and Bootstrap.</p>
+                  <a href="https://www.powtech.xyz" target="_blank"><button class="btn">View demo<i class="fa fa-external-link icon" aria-hidden="true"></i></button></a>
+                </div>
+                </div>
+              </div>
+              <!-- End of Web dev 2 -->
+          
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Web dev Row -->
+
+    <!-- TOOLS -->
+    <div class="container tools-container">
+      <h5>Tools</h5>
+      <br><br><br>
+        <!-- Tool 1 -->
+        <div class="tools-row">
+          <!-- Graphic tools -->
+          <div class="graphic-tool"></div>
+          <div class="graphic-tool">
+            <img src="images/logo-canva-png.png" alt="canva-logo">
+          </div>
+          <div class="graphic-tool"></div>
+          <div class="graphic-tool">
+            <img src="images/illustrator.png" alt="illustrator-logo">
+          </div>
+          <div class="graphic-tool"></div>
+          <div class="graphic-tool">
+            <img src="images/pngwing.com.png" alt="Photoshop-logo">
+          </div>
+        </div>
+        <!-- Tool 2 -->
+        <div class="tools-row">
+          <!-- Web dev tools -->
+          <div class="graphic-tool">
+            <img src="images/pngwing.com (1).png" alt="canva-logo">
+          </div>
+          <div class="graphic-tool"></div>
+          <div class="graphic-tool">
+            <img src="images/pngwing.com (4).png" alt="illustrator-logo">
+          </div>
+          <div class="graphic-tool"></div>
+          <div class="graphic-tool">
+            <img src="images/pngwing.com (3).png" alt="Photoshop-logo">
+          </div>
+          <div class="graphic-tool"></div>
+          <div class="graphic-tool">
+            <img src="images/pngwing.com (2).png" alt="Photoshop-logo">
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+<!-- End of Portfolio -->
+
+<!-- Contact Form -->
+<div id="contact" class="go-to"></div>
+  <div class="container contact-container">
+    <h4>Contact Me</h4>
+  <form action="https://formsubmit.co/johnsonp.joshua@yahoo.com" method="POST" class="row g-3">
+      <div class="col-md-6">
+          <label for="inputText4" class="form-label">Name</label>
+          <input id="inputText4" type="text" class="form-control" placeholder="Your fullname">
+      </div>
+      <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input id="inputEmail4" type="email" class="form-control" placeholder="yourdomain@email.com" required>
+      </div>
+      <div class="col-12 form-floating">
+          <textarea id="floatingTextarea2" class="form-control" style="height: 130px;" required></textarea>
+          <label style="color: #000;" for="floatingTextarea2">write your message...</label>
+      </div>
+      <input type="hidden" name="_next" value="Thanks.html">
+      <button id="email" type="submit" class="btn btn-success">Submit</button>
+  </form>
+  </div>
+ <!--End of Form-->
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+      <div class="row">
+          <h3>Get your website Onl<span class="ispan">i</span>ne.</h3>
+          <div class="col-6 contact">
+              <h5>Contact Info</h5>
+              <div>
+                  <a href="tel:+2348096169948"><i class="fa fa-phone" aria-hidden="true"></i><span>+234-809-6169-948</span></a>
+              </div>
+              <div>
+                 <a href="mailto:Johnsonp.Joshua@yahoo.com"><i class="fa fa-envelope" aria-hidden="true"></i><span>Johnsonp.Joshua@yahoo.com</span></a>
+              </div>
+          </div>
+          <div class="col-6 row social">
+            <br><br>
+              <h5>Social Links</h5>
+              <div class="ig col-md-6 col-lg-2">
+                 <a href="https://www.instagram.com/leovihildo" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+              <div class="fb col-md-6 col-lg-2">
+                <a href="https://www.facebook.com/johnson.wizfacejoshua" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </div>
+              <div class="linkd col-md-6 col-lg-2">
+                <a href="https://www.linkedin.com/in/joshua-johnson-270382199" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="copy"><span>POW Tech Copyright&copy;</span></div>
+</footer>
+    
+   
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/webfolio.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jQuery v3.6.0.js"></script>
+  <script src="js/sweetalert2.all.min.js"></script>
+</body>
+</html>
