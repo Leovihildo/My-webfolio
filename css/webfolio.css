@@ -354,6 +354,9 @@ footer .contact, footer .social{
        --tiny-font: .8rem;
        --verytiny-font: .6rem;
    }
+    #home-container{
+        margin-top: 100px;
+    }
     .profile-pic{
         width: 290px;
         height: 530px;
