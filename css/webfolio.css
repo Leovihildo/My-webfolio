@@ -358,11 +358,11 @@ footer .contact, footer .social{
         margin-top: 100px;
     }
     .home-profile-pic{
-        margin: 10px auto;
+        margin: 10px 0;
     }
     .profile-pic{
         width: 370px;
-        height: 590px;
+        height: 620px;
     }
     .graphic-tool{
         width: 70px;
