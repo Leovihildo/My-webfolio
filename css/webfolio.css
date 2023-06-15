@@ -38,6 +38,26 @@
 .theme3{
     --main-colour: #d7d98a;
 }
+/* ANIMATIONS */
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes rush{
+    0%{
+        margin-left: -150px;
+    }
+    50%{
+        margin-left: 0px;
+    }
+}
 *{
     margin: 0;
     padding: 0;
@@ -218,12 +238,22 @@ hr{
 .home-msg > h4{
     font-size: var(--medium-font);
     font-weight: var(--light-font);
+    animation: fade 3s forwards;
+}
+.home-msg > h3{
+    animation: fade 3s forwards;
+    animation-delay: 8s;
+}
+.home-msg > p{
+    animation: fade 3s forwards;
+    animation-delay: 4s;
 }
 .profile-pic{
     width: 500px;
     height: 820px;
     border: 1px solid none;
     margin-left: 80px;
+    animation: rush 2s fade in fade out;
 }
 /* PORTFOLIO SECTION */
 .graphic{
