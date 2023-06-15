@@ -238,22 +238,25 @@ hr{
 .home-msg > h4{
     font-size: var(--medium-font);
     font-weight: var(--light-font);
-    animation: fade 3s forwards;
+    opacity: 0;
+    animation: fade 5s forwards;
 }
-.home-msg > h3{
+h3{
+    opacity: 0;
     animation: fade 3s forwards;
-    animation-delay: 8s;
+    animation-delay: 12s;
 }
 .home-msg > p{
-    animation: fade 3s forwards;
-    animation-delay: 4s;
+    opacity: 0;
+    animation: fade 4s forwards;
+    animation-delay: 7s;
 }
 .profile-pic{
     width: 500px;
     height: 820px;
     border: 1px solid none;
     margin-left: 80px;
-    animation: rush 2s fade in fade out;
+    animation: rush 8s fade in fade out;
 }
 /* PORTFOLIO SECTION */
 .graphic{
