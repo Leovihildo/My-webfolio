@@ -130,7 +130,7 @@ a{
     background-color: #d7d98a; */
 }
 p{
-    font-size: var(--tiny-font);
+    font-size: var(--verytiny-font);
 }
 span{
     color: var(--main-colour);
@@ -152,8 +152,8 @@ h5{
     font-size: var(--tiny-font);
 }
 h6{
-    font-weight: var(--light-font);
-    font-size: var(--verytiny-font);
+    font-weight: var(--normal-font);
+    font-size: var(--tiny-font);
 }
 hr{
     width: 30%;
