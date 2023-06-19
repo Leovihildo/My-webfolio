@@ -149,7 +149,7 @@ a{
     /* height: 100px;
     background-color: #d7d98a; */
 }
-p{
+p, label{
     font-size: var(--verytiny-font);
 }
 span{
