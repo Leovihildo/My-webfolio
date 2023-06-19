@@ -193,6 +193,7 @@ hr{
 }
 .mySwiper{
     height: 120px;
+    margin-top: 10px;
 }
 .mySwiper3 .row>img{
     padding-left: 70px;
@@ -263,6 +264,9 @@ h3{
 .graphic{
     margin-bottom: 50px;
 }
+.webdev-row{
+    margin-top: 80px;
+}
 .portfolio-container{
     text-align: center;
     align-items: center;
@@ -283,7 +287,7 @@ footer{
     margin-top: 170px;
     position: relative;
     text-align: center;
-    background-color: #000;
+    background-color: var(--bg2-colour);
     /* margin-bottom: 50px; */
 }
 footer a{
@@ -322,6 +326,7 @@ footer .contact, footer .social{
 }
 #copy>span{
     position: absolute;
+    font-size: var(--verytiny-font);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
