@@ -301,15 +301,19 @@ footer .contact, footer .social{
 }
 .contact span{
     margin-left: 8px;
+    font-size: var(--verytiny-font);
 }
 .ig, .fb, .linkd{
     font-size: var(--small-font);
     margin: 5px auto;
 }
-.ig>a:hover{
+.fa-instagram:hover{
     border-color: red;
 }
-.linkd a:hover{
+.fa-facebook:hover{
+    border-color: blue;
+}
+.fa-lnkdn:hover{
     color: gray;
 }
 #copy{
