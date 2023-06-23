@@ -50,12 +50,18 @@
         opacity: 1;
     }
 }
-@keyframes rush{
+@keyframes drop{
     0%{
-        margin-left: -150px;
+        margin-top: -150px;
+        opacity: 0;
     }
     50%{
-        margin-left: 0px;
+        margin-top: -50px;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 0px;
+        opacity: 1;
     }
 }
 *{
@@ -89,9 +95,6 @@ label{
 nav ul{
     padding: 8px;
     gap: 1.15rem;
-}
-nav ul>li{
-    font-size: var(--verytiny-font);
 }
 .navbar{
     z-index: 9;
@@ -142,15 +145,14 @@ a{
 .section{
     min-height: var(--header-height);
     padding-top: 20px;
-    margin-bottom: -200px;
 }
 .go-to{
     margin-bottom: 100px;
     /* height: 100px;
     background-color: #d7d98a; */
 }
-p, label{
-    font-size: var(--verytiny-font);
+p, nav ul>li, label{
+    font-size: calc((var(--tiny-font))-8px);
 }
 span{
     color: var(--main-colour);
@@ -173,7 +175,7 @@ h5{
 }
 h6{
     font-weight: var(--normal-font);
-    font-size: var(--tiny-font);
+    font-size: var(--verytiny-font);
 }
 hr{
     width: 30%;
@@ -233,6 +235,9 @@ hr{
 /* #home-container{
     background-color: red;
 } */
+.home-section{
+    margin-top: 6rem;
+}
 .home-msg{
     margin: auto 0;
 }
@@ -240,23 +245,31 @@ hr{
     font-size: var(--medium-font);
     font-weight: var(--light-font);
     opacity: 0;
-    animation: fade 3s forwards;
+    animation: fade 2s forwards;
 }
 h3{
     opacity: 0;
-    animation: fade 3s forwards;
-    animation-delay: 5s;
+    animation: fade 2s forwards;
+    animation-delay: 4s;
 }
 .home-msg > p{
     opacity: 0;
-    animation: fade 3s forwards;
-    animation-delay: 3s;
+    animation: fade 2s forwards;
+    animation-delay: 3.5s;
 }
-.home-profile-pic{
+.profile-pic{
+    opacity: 0;
     width: 500px;
     height: 820px;
-    border: 1px solid none;
+    animation: drop 2s forwards;
+    animation-delay: 1.5s;
     margin-left: 80px;
+    margin-top: 60px;
+}
+#home-container .btn{
+    opacity: 0;
+    animation: drop 2s forwards;
+    animation-delay: 2s;
 }
 /* PORTFOLIO SECTION */
 .graphic{
@@ -270,8 +283,13 @@ h3{
     align-items: center;
 }
 .tools-container, .contact-container{
-    margin-top: 100px;
     text-align: center;
+}
+.tools-container{
+    margin-top: 40px;
+}
+.contact-container{
+    margin-top: -400px;
 }
 
 /* CONTACT */
@@ -353,6 +371,7 @@ footer .contact, footer .social{
     }
     .home-profile-pic{
         margin: 10px auto;
+        text-align: center;
     }
     /* PORTFOLIO SECTION */
     .mySwiper2{
@@ -385,6 +404,12 @@ footer .contact, footer .social{
         width: 90px;
         height: 65px;
     }
+    /* .tools-container{
+        margin-top: -20vh;
+    }
+    .contact-container{
+        margin-top: -5vh;
+    } */
 }
 @media only screen and (max-width: 469px) {
     :root{
@@ -400,10 +425,12 @@ footer .contact, footer .social{
     }
     .home-profile-pic{
         margin: 10px 0;
+        text-align: center;
     }
     .profile-pic{
         width: 320px;
         height: 580px;
+        margin: 0 auto;
     }
     .graphic-tool{
         width: 70px;
@@ -436,4 +463,7 @@ footer .contact, footer .social{
         height: 60px;
         width: inherit;
     }
+    /* .tools-container, .contact-container{
+        margin-top: -10vh;
+    } */
 }
