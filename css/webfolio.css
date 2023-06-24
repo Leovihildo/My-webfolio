@@ -261,7 +261,7 @@ h3{
     opacity: 0;
     width: 500px;
     height: 820px;
-    animation: drop 2s forwards;
+    animation: fade 2s forwards;
     animation-delay: 1.5s;
     margin-left: 80px;
     margin-top: 60px;
@@ -269,7 +269,7 @@ h3{
 #home-container .btn{
     opacity: 0;
     animation: drop 2s forwards;
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 /* PORTFOLIO SECTION */
 .graphic{
